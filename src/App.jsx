@@ -1,5 +1,6 @@
 import React from "react";
-import { BoxBase, BoxCenter, GlobalStyle } from "./Components";
+import {  GlobalStyle} from "./Components";
+import { Form } from "./Components/Form";
 
 
 
@@ -7,11 +8,7 @@ function App() {
 return (
   <>
 <GlobalStyle /> 
-<BoxBase>
-  <BoxCenter>
-    Crud com Hooks
-  </BoxCenter>
-</BoxBase>
+<Form />
  </>
 );}
 
